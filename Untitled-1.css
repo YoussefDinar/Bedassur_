@@ -230,3 +230,90 @@ ul{
 	top: 0;
 }
 /* End Header section */
+
+#hero {
+	background-image: url(beda.jpg);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+	box-sizing: border-box;
+	
+}
+#hero::after {
+    content: '';
+    background-size: cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: auto;
+	width: 100%;
+	
+	background-image:url(beda.jpg);
+    background-repeat: no-repeat;
+	box-sizing: border-box;
+	opacity: 0.6 #66000000;
+	z-index: -1;
+}
+#hero .hero {
+	
+    margin: 50 auto;
+    justify-content: flex-end;
+	padding: 0 50px;
+}
+#hero h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+}
+#hero h1:nth-child(1) {
+	animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+	animation-delay: 2s;
+}
+#hero h1:nth-child(3) {
+	animation: text_reveal_name 0.5s ease forwards;
+	animation-delay: 3s;
+}
+#hero h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: dodgerblue;
+	animation: text_reveal_box 1s ease;
+	animation-delay: 0.5s;
+}
+#hero h1:nth-child(1) span {
+	animation-delay: 0.5s;
+}
+#hero h1:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+#hero h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+.myheader h1{
+	display: inline;	
+}
+	.myheader span{	
+		font-size: 1.5em;
+		font-weight: bold;
+		color: white;}
+	
+		.myheader2 h1{
+	
+			display: inline;
+			
+		}
+		.myheader2 span{
+			font-size: 0.7em;
+		font-weight: bold;
+			
+			color: white;}
