@@ -618,7 +618,16 @@ ul{
 	#about .col-right h1 {
 		text-align: left;
 	}
-
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid dodgerblue;
+	z-index: -1;
+}
 	#contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
