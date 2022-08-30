@@ -604,6 +604,13 @@ ul{
 		width: 98%;
 		border: 10px solid #087dfa;
 	}
+
+        #about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+        }
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
