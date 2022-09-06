@@ -443,7 +443,7 @@ ul{
 }
 
 .checkmark{
-  display:inline-block;
+  display:inline-block;}
   
   &:after{
     content: '';
@@ -454,7 +454,7 @@ ul{
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
   }
-}
+
 
 #projects .project-img {
 	flex-basis: 50%;
