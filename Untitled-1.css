@@ -635,8 +635,8 @@ ul{
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
-	width: 90%;
-       padding: 100px 0;
+        width: 90%;
+        padding: 100px 0;
 	align-items: center;
 	justify-content: center;
 	min-width: 20vh;
