@@ -230,7 +230,9 @@ ul{
 	top: 0;
 }
 /* End Header section */
-#home{
+
+
+#home {
 	background-image: url(beda.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -242,18 +244,18 @@ ul{
 #home::after {
     content: '';
     background-size: cover;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: auto;
-	width: 100%;
-	
-	background-image:url(beda.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-image:url(beda.jpg);
     background-repeat: no-repeat;
-	box-sizing: border-box;
-	opacity: 0.6 #66000000;
-	z-index: -1;
+    box-sizing: border-box;
+    opacity: 0.6 #66000000;
+    z-index: -1;
 }
+
 #home .home {
 	
     margin: 50 auto;
