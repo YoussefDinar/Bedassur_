@@ -740,26 +740,9 @@ ul{
 }
 
 
-#contact .contact-items {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin: 0;
-}
-#contact .contact-item {
-	width: 80%;
-	padding: 20px;
-	t: center;
-	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
-	
 
 
 
-
-	
 
 
 #footer {
