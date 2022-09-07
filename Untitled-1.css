@@ -230,8 +230,7 @@ ul{
 	top: 0;
 }
 /* End Header section */
-
-#home {
+#home{
 	background-image: url(beda.jpg);
 	background-size: cover;
 	background-position: top center;
